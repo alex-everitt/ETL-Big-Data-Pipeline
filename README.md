@@ -6,7 +6,7 @@ An Oozie coordinator job is used to apply a Spark Streaming job with a 1 minute 
 From this Kafka topic, final results are sinked as records into a Cassandra database and also sinked sequentially into HDFS.
 
 The architecture of the pipeline is as shown below
-![Alt text](images/architecture.png?raw=true "Architecture")
+![Alt text](images/architecture.PNG?raw=true "Architecture")
 
 The completed Nifi pipeline is shown below
 ![Alt text](images/Nifi_pipeline.png?raw=true "Nifi Pipeline")

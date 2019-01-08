@@ -25,17 +25,14 @@ The completed Nifi pipeline is shown below
 ![Alt text](images/Nifi_pipeline.png?raw=true "Nifi Pipeline")'
 
 ## Files Included
-**Nifi/**  
-      **ETL_Pipeline_Nifi.xml**: An importable Nifi template for the pipeline shown above  
-      **Description.docx** : A description of all Nifi components used and their configurations  
+**Nifi/ETL_Pipeline_Nifi.xml**: An importable Nifi template for the pipeline shown above    
+**Nifi/Description.docx** : A description of all Nifi components used and their configurations  
 **Final-Sinks** : A dump of the contents of the final Cassandra and HDFS sinks after a cycle throguh the pipeline  
-**Input/**  
-      **error_log.txt** : The data set used for development  
-      **streaming_results_to_test_cassandra** : Dataset taken from subset of spark streaming job output that was used to test the cassandra consumer in Nifi  
-**Oozie/**  
-      **coordinator.xml** : The Oozie job coordinator configuration file  
-      **job.properties** : The Oozie job properties configuration file  
-      **workflow.xml** : The Oozie workflow configuration file  
+**Input/error_log.txt** : The data set used for development  
+**Input/streaming_results_to_test_cassandra** : Dataset taken from subset of spark streaming job output that was used to test the cassandra consumer in Nifi   
+**Oozie/coordinator.xml** : The Oozie job coordinator configuration file  
+**Oozie/job.properties** : The Oozie job properties configuration file  
+**Oozie/workflow.xml** : The Oozie workflow configuration file  
 
 ## Instructions
 1.	Install Hortonworks HDP with Nifi  

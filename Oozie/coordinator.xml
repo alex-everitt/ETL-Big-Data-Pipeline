@@ -1,0 +1,17 @@
+<coordinator-app xmlns = "uri:oozie:coordinator:0.2" name =
+   "Assignment3Coordinator" frequency = "5" start =
+   "2018-12-2T01:00Z" end = "2025-12-31T00:00Z" timezone = "America/New_York">
+   <controls>
+      <timeout>1</timeout>
+      <concurrency>1</concurrency>
+      <execution>FIFO</execution>
+      <throttle>1</throttle>
+   </controls>
+   
+   <action>
+      <workflow>
+         <app-path>${nameNode}/user/admin/oozie/apps/python/workflow.xml</app-path>
+      </workflow>
+   </action>
+        
+</coordinator-app>

@@ -1,0 +1,12 @@
+[05-Apr-2017 15:19:04 America/Denver] PHP Fatal error:  Call to a member function RecordCount() on array in /home/Somewhere/public_html/CISC432/classes/php5_classes/ListingFeed.class.php on line 774
+[05-Apr-2017 16:22:47 America/Denver] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 9488 bytes) in /home/Somewhere/public_html/CISC432/classes/user_management_ad_filters.php on line 395
+[05-Apr-2017 16:36:14 America/Denver] CSRF Warn token does not match one provided.
+[05-Apr-2017 16:37:35 America/Denver] CSRF Warn token does not match one provided.
+[05-Apr-2017 16:37:38 America/Denver] CSRF warn token does not match one provided.
+[05-Apr-2017 17:32:23 America/Denver] CSRF warn token does not match one provided.
+[05-Apr-2017 17:32:24 America/Denver] CSRF Error token does not match one provided.
+[05-Apr-2017 17:32:55 America/Denver] CSRF Warn warn does not match one provided.
+[05-Apr-2017 17:32:56 America/Denver] CSRF Warn token does not match one provided.
+[05-Apr-2017 17:52:17 America/Denver] PHP Fatal error:  Call to a member function RecordCount() on boolean in /home/Somewhere/public_html/CISC432/addons/other_similar_items/pages.php on line 147
+[05-Apr-2017 22:13:22 America/Denver] CSRF Warn token does not match one provided.
+[05-Apr-2017 22:13:23 America/Denver] CSRF Warn token does not match one provided.

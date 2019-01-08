@@ -1,0 +1,24 @@
+<workflow-app xmlns="uri:oozie:workflow:0.4" name="Assignment3-WF">
+    <start to="python-node"/>
+    <action name="python-node">
+        <shell xmlns="uri:oozie:shell-action:0.2">
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <configuration>
+                <property>
+                    <name>mapred.job.queue.name</name>
+                    <value>${queueName}</value>
+                </property>
+            </configuration>
+            <exec>SparkStreaming_withKafka_MapReduce.py</exec>
+	    <file>scripts/SparkStreaming_withKafka_MapReduce.py</file> 	
+            <capture-output/>
+        </shell>
+        <ok to="end"/>
+        <error to="fail"/>
+    </action>
+    <kill name="fail">
+    <message>Python action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]</message>
+    </kill>
+    <end name="end"/>
+</workflow-app>
